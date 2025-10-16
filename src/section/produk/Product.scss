@@ -1,0 +1,49 @@
+.productcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .c {
+    width: 80%;
+    @media (max-width: 768px) {
+      width: 98%;
+    }
+    .producttitle {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+      color: #086d44;
+      font-family: "Roboto", Sans-serif;
+      font-size: 46px;
+      font-weight: 600;
+    }
+    .productcard {
+      gap: 50px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .productcard1 {
+      gap: 50px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .divider {
+      text-align: center;
+      width: 90%;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 0 10px 0 rgb(49, 49, 49);
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  .container-navbar {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    .logo-navbar {
+      width: 100%;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+      img {
+        width: 20%;
+        @media (max-width: 768px) {
+          width: 50%;
+          text-align: left;
+        }
+      }
+    }
+    .buttonwa {
+      width: 100%;
+      text-align: right;
+      @media (max-width: 768px) {
+        visibility: hidden;
+        width: 0px;
+      }
+      .whatsapp {
+        cursor: pointer;
+        padding: 15px 50px;
+        border-color: #086d44;
+        background-color: #086d44;
+        color: white;
+        border-radius: 30px;
+        font-size: 18px;
+        &:hover {
+          background-color: white;
+          color: #086d44;
+        }
+        @media (max-width: 768px) {
+          visibility: hidden;
+          padding: 0px;
+        }
+      }
+    }
+  }
+}

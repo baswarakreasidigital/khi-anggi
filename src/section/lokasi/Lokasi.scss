@@ -1,0 +1,44 @@
+.lokasi-container {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .lokasi-inner {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    .lokasi-map {
+      width: 100%;
+      .image-map {
+        width: 100%;
+        @media (max-width: 768px) {
+          height: auto;
+        }
+      }
+    }
+    .lokasi-list {
+      margin-left: 20px;
+      font-size: 20px;
+      width: 80%;
+      text-align: left;
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+    .lokasi-title {
+      font-size: 30px;
+      font-family: "Roboto", Sans-serif;
+      padding: 5px 0px 5px 0px;
+      color: #086d44;
+      font-weight: 600;
+      text-align: left;
+    }
+  }
+}

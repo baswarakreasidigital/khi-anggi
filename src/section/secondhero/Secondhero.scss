@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.secondherocontainer {
+  padding-top: 75px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  .secondmiddle {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .leftcontent {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      height: 100%;
+      margin-left: 2%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .buttonwa {
+        padding-top: 20px;
+        width: 100%;
+        text-align: left;
+        .whatsapp {
+          cursor: pointer;
+          padding: 10px 50px;
+          border-color: #086d44;
+          background-color: #086d44;
+          color: white;
+          border-radius: 30px;
+          font-size: 18px;
+          &:hover {
+            background-color: white;
+            color: #086d44;
+          }
+        }
+      }
+      .item {
+        color: #333333;
+        font-family: "Roboto", Sans-serif;
+        font-size: 23px;
+        font-weight: 400;
+        @media (max-width: 768px) {
+          margin-left: 25px;
+        }
+        .itempoin {
+          padding: 5px;
+        }
+      }
+      .leftlogo {
+        width: 40%;
+        text-align: left;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+      .contentjudul {
+        width: 80%;
+        color: #84692a;
+        font-family: "Poppins", sans-serif;
+        font-size: 50px;
+        line-height: 1.2;
+        font-weight: 600;
+        @media (max-width: 768px) {
+          width: 100%;
+          text-align: center;
+          font-size: 30px;
+        }
+      }
+      .contentdescription {
+        margin-top: 35px;
+        text-align: center;
+        width: 70%;
+        font-family: "Poppins", sans-serif;
+        font-size: 28px;
+        @media (max-width: 768px) {
+          width: 90%;
+          font-size: 18px;
+        }
+      }
+    }
+    .rightcontent {
+      display: flex;
+      width: 50%;
+      height: 100%;
+
+      @media (max-width: 768px) {
+        display: none;
+        width: 0%;
+      }
+      .leftpicture {
+        width: 50%;
+        margin-right: 3%;
+        .kiriatas {
+          text-align: right;
+          .satu {
+            width: 80%;
+          }
+        }
+        .kiribawah {
+          text-align: right;
+          margin-top: 5%;
+          .dua {
+            width: 100%;
+          }
+        }
+      }
+      .rightpicture {
+        width: 50%;
+        .kananatas {
+          margin-top: 30%;
+          .tiga {
+            width: 100%;
+          }
+        }
+        .kananbawah {
+          margin-top: 5%;
+          .empat {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}

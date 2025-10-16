@@ -1,0 +1,167 @@
+{
+  "cards": [
+    {
+      "imagesKey": "danishaImages",
+      "cardtitle": "Danisha",
+      "title": "SOFT DP",
+      "harga": "500 Jt",
+      "price": "2 Juta/Bulan",
+      "details": {
+        "area": "60m²",
+        "buildingSize": "33m²",
+        "bedrooms": "2",
+        "bathrooms": "1"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Danisha)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "teradamai",
+      "cardtitle": "Teradamai",
+      "title": "SOFT DP",
+      "harga": "500 Jt",
+      "price": "2 Juta/Bulan",
+      "details": {
+        "area": "60m²",
+        "buildingSize": "33m²",
+        "bedrooms": "2",
+        "bathrooms": "1"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Tera%20Damai)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "segaraImages",
+      "cardtitle": "Segara City",
+      "title": "SOFT DP",
+      "harga": "500 Jt",
+      "price": "3.6 Juta/Bulan",
+      "details": {
+        "area": "75m²",
+        "buildingSize": "35m²",
+        "bedrooms": "2",
+        "bathrooms": "1"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Segara+City)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "hoshi",
+      "cardtitle": "Hoshi",
+      "title": "SOFT DP",
+      "harga": "500 Jt",
+      "price": "7 Juta/Bulan",
+      "details": {
+        "area": "60m²",
+        "buildingSize": "55m²",
+        "bedrooms": "2+1",
+        "bathrooms": "2"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Hoshi)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "viola",
+      "cardtitle": "Viola",
+      "title": "SOFT DP",
+      "harga": "1 M",
+      "price": "5 Juta/Bulan",
+      "subprice": "",
+      "details": {
+        "area": "55m²",
+        "buildingSize": "69m²",
+        "bedrooms": "3",
+        "bathrooms": "2"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah,%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Viola)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "elora",
+      "cardtitle": "Elora",
+      "title": "SOFT DP",
+      "harga": "850 Jt",
+      "price": "4 Juta/Bulan",
+      "subprice": "",
+      "details": {
+        "area": "70m²",
+        "buildingSize": "65m²",
+        "bedrooms": "3",
+        "bathrooms": "2"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Elora)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    }
+  ],
+  "cards1": [
+    {
+      "imagesKey": "nismara",
+      "cardtitle": "Nismara",
+      "title": "SUBSIDI DP",
+      "harga": "1.4 M",
+      "price": "6 Juta/Bulan",
+      "subprice": "",
+      "details": {
+        "area": "66m²",
+        "buildingSize": "65m²",
+        "bedrooms": "3",
+        "bathrooms": "2"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Nismara)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "nishi",
+      "cardtitle": "Nishi",
+      "title": "SIAP HUNI",
+      "harga": "1.4 M",
+      "price": "7 Juta/Bulan",
+      "subprice": "Juta/Bulan",
+      "details": {
+        "area": "75m²",
+        "buildingSize": "55m²",
+        "bedrooms": "3",
+        "bathrooms": "2"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Nishi)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "lavesh",
+      "cardtitle": "Lavesh",
+      "title": "SIAP HUNI",
+      "harga": "1.5 M",
+      "price": "7 Juta/Bulan",
+      "subprice": "Juta/Bulan",
+      "details": {
+        "area": "75m²",
+        "buildingSize": "55m²",
+        "bedrooms": "3",
+        "bathrooms": "2"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Lavesh)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "aseraosImages",
+      "cardtitle": "Asera One South",
+      "title": "SIAP HUNI",
+      "harga": "2 M",
+      "price": "10 Juta/Bulan",
+      "subprice": "Juta/Bulan",
+      "details": {
+        "area": "144m²",
+        "buildingSize": "157m²",
+        "bedrooms": "3+1",
+        "bathrooms": "3+1"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Asera+One+South)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    },
+    {
+      "imagesKey": "ruko",
+      "cardtitle": "Ruko",
+      "title": "SIAP HUNI",
+      "harga": "1.5 M",
+      "price": "13 Juta/Bulan",
+      "subprice": "Juta/Bulan",
+      "details": {
+        "area": "102m²",
+        "buildingSize": "245m²",
+        "bedrooms": "0",
+        "bathrooms": "3"
+      },
+      "whatsappLink": "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Ruko+Asera)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.surrounding {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container-surrounding {
+    width: 80%;
+    text-align: center;
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    .header {
+      font-size: 45px;
+      font-family: "Poppins";
+      font-weight: 600;
+      color: #086d44;
+    }
+    .carousel-surrounding {
+      width: 100%;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      .slick-slider {
+        width: 100%;
+        .slick-next::before,
+        .slick-prev::before {
+          font-family: "slick";
+          font-size: 30px;
+        }
+        .slick-list {
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+        }
+        .slick-track {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-self: center;
+        }
+
+        .slick-dots {
+          position: absolute; /* Make dots absolute for positioning within slides */
+          bottom: 10px; /* Adjust vertical positioning */
+          left: 50%; /* Center dots horizontally */
+          transform: translateX(-50%); /* Center dots precisely */
+          z-index: 1; /* Ensure dots are above image content */
+        }
+        .slick-next {
+          right: 25px;
+        }
+        .slick-prev {
+          z-index: 1;
+          left: 25px;
+        }
+        .slick-dots {
+          li {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

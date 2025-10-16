@@ -1,0 +1,42 @@
+.hero-container {
+  width: 100%;
+
+  .heroimage {
+    width: 100%;
+    height: 100vh;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  .slidermobile {
+    display: none;
+    @media (max-width: 768px) {
+      width: 100%;
+      display: block;
+    }
+    .center {
+      width: 100%;
+      .slick-dots {
+        bottom: 18px;
+      }
+      .slick-next {
+        right: 25px;
+      }
+      .slick-prev {
+        z-index: 1;
+        left: 25px;
+      }
+      .slick-slider {
+        width: 100%;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+      .imgcontent {
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
