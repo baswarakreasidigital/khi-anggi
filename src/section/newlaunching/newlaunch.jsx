@@ -10,8 +10,15 @@ import {
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import "./newlaunch.scss";
 import navara from "./Anggi.png";
+import promoNewMobile from "../../asset/KHI promo deals (1).webp";
+import promoNewDesktop from "../../asset/KHI promo deals (2).webp";
 
 const newlaunch = () => {
+  const wapromo = () => {
+    const whatsappLink =
+      "https://api.whatsapp.com/send?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20rumah%20ini%20(Exclusive+Deals)%20(https://marketing-kotaharapanindah.com/)%20?&fbclid=PAAaa7g9IJ-tB3RyMunLD6w_5ysqP4oI6PA2d9Ml7Isc1_OXjeOiGuAqu7Ap0";
+    window.location.href = whatsappLink;
+  };
   const handleConsultationClick = () => {
     const whatsappLink =
       "https://api.whatsapp.com/send/?phone=6287876666122&text=Halo%20Kota%20Harapan%20Indah%20%20Saya%C2%A0bisa%20minta%20detail%20Katalog,%20Simulasi%20dan%20Promo%20terbaru%20produk%20(Navara)%20https://marketing-kotaharapanindah.com/&type=phone_number&app_absent=0";
@@ -19,6 +26,25 @@ const newlaunch = () => {
   };
   return (
     <div className="newlaunch">
+      <div className="container-new-promo" id="promo-exclusive">
+        <h2 className="promo-title"> PROMO EXCLUSIVE DEALS</h2>
+        <img
+          className="promo-new-mobile"
+          src={promoNewMobile}
+          alt="Promo New Mobile"
+        />
+        <img
+          className="promo-new-desktop"
+          src={promoNewDesktop}
+          alt="Promo New Desktop"
+        />
+        <div className="buttonwa">
+          <button onClick={wapromo} className="whatsapp">
+            <FontAwesomeIcon icon={faWhatsapp} />
+            &nbsp;&nbsp; Whatsapp
+          </button>
+        </div>
+      </div>
       <div id="navara" className=" containerNew3">
         <div className="containercontent">
           <div className="header">
